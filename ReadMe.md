@@ -2,7 +2,7 @@
 
 ## 👤 Short Self-Intro
 
-Hi! I'm Parvathy Padmakumar
+Hi! I'm Parvathy Padmakumar. I like Gen AI and ML. I have attended a few workshops on LLMs and AI. Some of the language I know are Java,Python,C++,HTML,JS,CSS and MySQL.I also learned cryptography, basics of gen AI and basics of quantum computing. I like writing,coding and arts. I have published and contributed to a few books.
 
 ---
 
@@ -22,11 +22,10 @@ Hi! I'm Parvathy Padmakumar
 | Day | Task Name               | Status     |
 |-----|-------------------------|------------|
 | 1   | Burnout Breakdown       | ✅ Completed |
-| 2   | Stress Signals          | ✅ Completed |
-| 3   | Outlier Overload        | ✅ Completed |
-| 4   | Encode to Survive       | ✅ Completed |
-| 5   | Prepping for Prediction | ✅ Completed |
-| 6   | Mini Challenge          | ✅ Completed |
+| 2   | Feature forge           |  ✅ Completed|
+| 3   | classifier arena        | ✅ Completed |
+| 4   |tree-based classification| ✅ Completed |
+| 6   | Mini Challenge          |  Working on  |
 | 7   | Main Challenge          | ✅ Completed |
 
 ---
@@ -36,18 +35,16 @@ Hi! I'm Parvathy Padmakumar
 | Task                     | Tools / Libraries                          |
 |--------------------------|--------------------------------------------|
 | Data Cleaning            | `pandas`, `numpy`                          |
-| Missing Value Handling   | `SimpleImputer` from `sklearn`, `pandas`   |
-| Outlier Detection        | `IQR`, `z-score`, `matplotlib`, `seaborn` |
-| Encoding Categorical Data| `OneHotEncoder`, `LabelEncoder`, `pandas` |
-| Feature Scaling          | `StandardScaler`, `MinMaxScaler`          |
-| Model Training           | `scikit-learn`, `xgboost`                  |
-| Evaluation               | `accuracy_score`, `confusion_matrix`      |
+| Missing Value Handling   | `.fillna()`                                |
+| Outlier Detection        | `IQR`, `z-score`, `matplotlib`, `seaborn`  |
+| Encoding Categorical Data| `OneHotEncoder`, `pandas`(`pandas.get_dummies`) |
+| Feature Scaling          | `StandardScaler`, `MinMaxScaler`           |
+| Model Training           | `sklearn`                                  |
+| Evaluation               | `accuracy_score`, `confusion_matrix`,`ean_squared_error`,`r2_score`  |
 
 ---
 
 ## 🧩 Mini Challenge Summary
-
-The mini challenge tested the end-to-end cleaning and preparation of a real-world dataset. Tasks included missing value imputation, outlier detection, and feature encoding. Final results were validated using quick exploratory data analysis and distribution checks.
 
 ---
 
@@ -63,16 +60,16 @@ Build a predictive model to classify whether an employee is at risk of burnout b
 
 ### ⚙️ Methods Applied
 
-- Imputation of missing values using mean/median
+- Imputation of missing values using mean for nominal data and median for categorical data
 - Outlier treatment using IQR method
 - Encoding of categorical features using OneHotEncoding
 - Feature scaling using StandardScaler
-- Model training with Logistic Regression and Random Forest
+- Model training with Logistic Regression,Lasso,Ridge and Random Forest
+- Comparison of model before data cleaning and model after data cleaning,outlier removal and feature selection using random forest
 
 ### 📏 Evaluation Metrics
 
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
+- Boxplot
+- Random forest classification
+- Mean square error of linear,lasso,ridge,randomforest
+- R2 score of linear,lasso,ridge,randomforest
