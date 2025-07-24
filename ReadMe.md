@@ -11,7 +11,7 @@ Hi! I'm Parvathy Padmakumar. I like Gen AI and ML. I have attended a few worksho
 | Cycle No. | Title                    | Status       | Link                                                |
 |-----------|--------------------------|--------------|-----------------------------------------------------|
 | 1         | Clean Data Champions     | ✅ Completed | [Cycle 1](./Cycle_1_Clean_Data_Champions/)         |
-| 2         | [To Be Announced]        | ⏳ Upcoming  | [Cycle 2](./Cycle_2_[Coming_Soon]/)                |
+| 2         | Cycle 2                  | ✅ Completed | [Cycle 2](./Cycle_2_Bagging_and_boosting/)         |
 | 3         | [To Be Announced]        | ⏳ Upcoming  | [Cycle 3](./Cycle_3_[Coming_Soon]/)                |
 | 4         | [To Be Announced]        | ⏳ Upcoming  | [Cycle 4](./Cycle_4_[Coming_Soon]/)                |
 
@@ -22,7 +22,7 @@ Hi! I'm Parvathy Padmakumar. I like Gen AI and ML. I have attended a few worksho
 | Day | Task Name               | Status     |
 |-----|-------------------------|------------|
 | 1   | Burnout Breakdown       | ✅ Completed |
-| 2   | Feature forge           |  ✅ Completed|
+| 2   | Feature forge           | ✅ Completed|
 | 3   | classifier arena        | ✅ Completed |
 | 4   |tree-based classification| ✅ Completed |
 | 6   | Mini Challenge          |  Working on  |
