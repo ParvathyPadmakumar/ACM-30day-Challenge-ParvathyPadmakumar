@@ -20,3 +20,10 @@ polynomial kernel
 soft margin or violations of margin by c parameter
 
 - low c offers faster runtime(wide margin)
+
+PCA
+
+PC1 - best fitting line in specified dimension (min distance between data points and line)
+
+PC2 - perpendicular line to PC1 
+
